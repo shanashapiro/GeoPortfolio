@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>NC Center for Geographic Information and Analysis</origin>
+				<pubdate>20020702</pubdate>
+				<title Sync="TRUE">streams</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Raleigh, NC</pubplace>
+					<publish>NC Center for Geographic Information and Analysis</publish>
+				</pubinfo>
+				<othercit>NCCGIA distributes this dataset</othercit>
+				<onlink>CGDB layer listing and Metadata - &lt;http://www.cgia.state.nc.us/cgdb/index.html&gt;</onlink>
+				<ftname Sync="TRUE">streams</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>The NC Center for Geographic Information and Analysis, developed this digital Major Hydrography data to enhance planning, siting and impact analysis in areas directly affecting surface waters consisting of streams and rivers, lakes, reservoirs, and shorelines. The data is a subset of the 1:24,000-scale detailed hydrography data. This file is updated as changes occur.</abstract>
+			<purpose>This data was created to assist governmental agencies and others in making resource management decisions through the use of a Geographic Information System (GIS) where information on general hydrographic features is needed.</purpose>
+			<supplinf>
+system filename: hydromaj      file size = 6.40 mb
+
+Revisions and updates to this layer include:
+3.) Previous 1:100,000-scale version was used to select hydro features from 1:24,000-scale coverage to create a new subset of the detailed hydro for purposes of larger scale mapping and making additional attributes available in the major hydrography coverage.  Arcs and polygons were created as major_hydro_arcs.shp and major_hydro_polys.shp.  In the shapefile version of the polygons, label = 216 was excluded (water offshore) to make the shapefile more suitable for cartographic purposes.
+2.) filename: hydromaj299  The February 9, 1999 updates include:
+a.) Projecting the data from NAD27 datum, State Plane projection,
+units of measure feet TO: NAD83 DATUM, State Plane PROJECTION,
+UNITS OF MEASURE METERS.  This was done to comply with the NC
+Geographic Information Coordinating Council's "Statement of
+Direction for North Carolina Corporate Geographic Database
+Horizontal Reference, Datum and Unit of Measure".  This reprojecting
+was done in various ways depending on the data type and content.
+Vector data was projected using the 'project' command in ESRI's
+Arc software and topology was cleaned and built based on coverage
+needs.  Raster data was projected using ESRI's Grid module
+and various steps as applicable.
+b.) Replaced the lake boundary for Falls Lake.  Corrected lake boundary
+digitized from US Army Corps of Engineers 251.5 foot contour overlay
+that was transferred onto 1:24,000-scale topo sheets.  (The original
+lake contours were surveyed incorrectly and the lake level has since
+been raised to the correct 251.5 ft level.)
+c.) Added more detailed stream annotation (anno level 1 - primary
+streams; anno level 2 - secondary streams).
+
+1.) filename: hydromaj997  The original version was dated September 1997.
+(perviousl named majhydro) Any previous versions were not offical
+database releases.
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>199709</begdate>
+					<enddate>19990209</enddate>
+				</rngdates>
+				<sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo>
+			<current>Data creation and revision dates</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-84.386645</westbc>
+				<eastbc Sync="TRUE">-75.424383</eastbc>
+				<northbc Sync="TRUE">36.614926</northbc>
+				<southbc Sync="TRUE">33.740263</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">127171.156250</leftbc><rightbc Sync="TRUE">929658.937500</rightbc><bottombc Sync="TRUE">11576.114258</bottombc><topbc Sync="TRUE">317839.156250</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Hydrography</themekey>
+				<themekey>Surface waters</themekey>
+			</theme>
+			<place>
+				<placekt>William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.</placekt>
+				<placekey>North Carolina</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Acknowledgement of products derived form this data set should cite the following: The source of the Major Hydrography data is the North Carolina Corporate Geographic Database. Earlier versions of this data set may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Jeffrey Brown</cntper>
+					<cntorg>NCCGIA</cntorg>
+				</cntperp>
+				<cntpos>Project Manager</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 North Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27699-0322</postal>
+					<country>U.S.A.</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919)715-0725</cntfax>
+				<cntemail>dataq@cgia.state.nc.us</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>Phone and electronic mail preferred</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+US Geological Survey
+Reston, Virginia 22092
+1-800-USA-MAPS
+
+NCCGIA Acting Director, Timothy R. Johnson
+Database Administration, Zsolt Nagy
+Project Manager, Jeffrey Brown
+North Carolina Center for Geographic Information and Analysis
+Department of Environment and Natural Resources
+301 North Wilmington Street, Suite 700
+Raleigh, NC 27699-0322
+</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All attribute codes have been extensively edited for accuracy by the associated agency. Stream codes, classifications and use support - NCDENR, DWQ; Linework, DLG code - NCCGIA. Attribute accuracy is considered high.</attraccr>
+		</attracc>
+		<logic>Using ESRI's ARC/INFO GIS software, the dataset was built for arc and polygon topology using the "build" command. The data set was then cleaned with a fuzzy tolerance of 1 meter. Topology has not been edited since the last build or clean.</logic>
+		<complete>These data represent the locations and identities of surface waters consisting of streams and rivers, lakes, ponds, and shorelines, as depicted on USGS 1:100,000-scale digital line graphs and supplemented to reflect hydrographic features classified by the state but not represented on the original DLG linework. Each stream reach is labeled with stream classification and use support information. All stream segments are approved by DWQ whether they are the original DWQ boundaries or changes to original boundaries.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Hydrography 1:100,000-scale features were taken from the USGS 1:100,000-scale DLGs. Supplemented hydrographic features were digitized from 1:24,000-scale bases and the linework checked against the bases to within a linewidth.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NC DENR - Div. of Water Quality, Water Quality Planning Section</origin>
+						<pubdate>19990301</pubdate>
+						<title>Hydrography with Use Support (1:100,000)</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Raleigh, North Carolina</pubplace>
+							<publish>NC DENR - Div. of Water Quality, Water Quality Planning</publish>
+						</pubinfo>
+						<othercit>Data is updated as needed</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>19980601</begdate>
+							<enddate>Unknown</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Original release date</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Use support spreadsheet and stream classification schedules</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>US Geological Survey</origin>
+						<pubdate>1990</pubdate>
+						<title>USGS 7.5 Minute series quadrangles</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Reston, Virginia</pubplace>
+							<publish>US Geological Survey</publish>
+						</pubinfo>
+						<othercit>Published Map Series</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1938</begdate>
+							<enddate>1990</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Publication dates of quadrangles</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Paper maps used to locate the stream reaches</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NC Center for Geographic Information and Analysis</origin>
+						<pubdate>19970721</pubdate>
+						<title>Hydrography 100000</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Raleigh, North Carolina</pubplace>
+							<publish>NC Center for Geographic Information and Analysis</publish>
+						</pubinfo>
+						<othercit>Data is updated as needed</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1988</begdate>
+							<enddate>19970721</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Original release date of hybrid hydro files</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Locations of surface waters consisting of streams and rivers, lakes, ponds, and shorelines combined from both 1:24,000 and 1:100,000-scale sources.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>RTI, Inc</origin>
+						<pubdate>19981231</pubdate>
+						<title>Use Support/hydrography project</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Raleigh, North Carolina</pubplace>
+							<publish>RTI, Inc.</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>ftp file</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1998</begdate>
+							<enddate>1998</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Original release date</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Creation of statewide 100k hydrography by joining 1:100,000 tiles; attributed files with 305(b) data received from DWQ.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NC Center for Geographic Information and Analysis</origin>
+						<pubdate>19990115</pubdate>
+						<title>Hydrography with Use Support (1:100,000)</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Raleigh, North Carolina</pubplace>
+							<publish>NC Center for Geographic Information and Analysis</publish>
+						</pubinfo>
+						<othercit>CGIA distributes the data</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>19980601</begdate>
+							<enddate>19990901</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Original release date</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Edgematching of 100k tiles, clipping of coverage to river basins,editing of ARC/INFO files to split arcs to match DWQ use support reaches, additional attributes added for use support and stream classification information.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>1:100,000-scale Digital Line Graph Files were taken from the USGS and refined. Post DLG and data refinements include: a) Translation of DLG to ARC/INFO data format b) Review and correction for incompleteness and/or incorrect DLG attributes c) Internal and external (in-progress) coordinate edgematching of features along map edges d) Addition of hydrographic features as required by DWQ for stream classifications e) Addition of hydrographic attributes as identified in attribute table specifications f) Deletion of all swamp apparent limits and area label points DWQ Stream classification index numbers were marked onto 1:24,000-scale vellum plots of the 1:100,000-scale hydrography. The index numbers were added to the digital files on screen. Where streams were coded by DWQ but not present in the digital file, 1:24,000-scale hydrographic features were digitized off of USGS base maps. Index numbers, stream classes, and stream locations were checked by DWQ using plots generated by CGIA. The linework is tiled to 1:100,000-scale map extents and stored in a digital library. These files are updated as needed.</procdesc>
+				<procdate>19970721</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Cheryl Pearce</cntper>
+							<cntorg>NCCGIA</cntorg>
+						</cntperp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntaddr>
+							<addrtype>Mailing and physical address</addrtype>
+							<address>301 North Wilmington Street, Suite 700</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27601-2825</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 733-2090</cntvoice>
+						<cntfax>(919)715-0725</cntfax>
+						<cntemail>dataq@cgia.state.nc.us</cntemail>
+						<hours>8:30AM - 5:30PM</hours>
+						<cntinst>Phone and electronic mail preferred</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Water quality for specific stream reaches was evaluated by DWQ and a use support rating assigned. This rating identifies how well a stream reach meets its designated uses. Ratings and additional attributes are maintained in an ACCESS database or EXCEL spreadsheet and updated by river basin on a 5-year rotation. DWQ provided this spreadsheet to RTI for joining to the 100k hydrography data layer. DWQ provides CGIA with updates as they occur.</procdesc>
+				<procdate>19970831</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Andrea Leslie</cntper>
+							<cntorg>NC DENR - Div. of Water Quality, Water Quality Planning Section</cntorg>
+						</cntperp>
+						<cntpos>Use Support Coordinator</cntpos>
+						<cntaddr>
+							<addrtype>Mailing and physical address</addrtype>
+							<address>1617 Mail Center</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27699-1617</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 733-5083</cntvoice>
+						<cntfax>(919) 715-5637</cntfax>
+						<cntemail>andrea_leslie@h2o.enr.state.nc.us</cntemail>
+						<hours>8am to 5pm</hours>
+						<cntinst>prefer telephone or e-mail</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>100k hydrography was obtained for North Carolina from the Geographic Information &amp; Analysis. 40 1:100,000 quadrangle tiles were imported to ArcView. Tiles were exported as .dbf files to FoxPro. A statewide FoxPro database was created. 305(b) data was obtained as an EXCEL spreadsheet from DWQ and converted to FoxPro. The 305(b) spreadsheet was joined to the hydrography data by index# using FoxPro. Shapefile created in ArcView and exported to ArcInfo. The ArcInfo file was supplied to NC CGIA for final editing.</procdesc>
+				<procdate>19980601</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Randy Dodd</cntper>
+							<cntorg>RTI, Inc.</cntorg>
+						</cntperp>
+						<cntpos>Environmental Scientist</cntpos>
+						<cntaddr>
+							<addrtype>Mailing and physical address</addrtype>
+							<address>P.O. Box 12194</address>
+							<city>Research Triangle Park</city>
+							<state>North Carolina</state>
+							<postal>27709-21194</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 563-4694</cntvoice>
+						<cntfax>(919)</cntfax>
+						<cntemail>dodo@rti.org</cntemail>
+						<hours>8am to 5pm</hours>
+						<cntinst>prefer telephone or e-mail</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The statewide 100k hydrography tiles were edgematched and mapjoined. The neatlines were removed and the coverage clipped to the North Carolina State boundary. This file was then clipped to the 17 river basins. Each river basin was edited such that index numbers matched. Attributes were re-named and edited in cooperation with DWQ. GIA updates the digital files as needed.</procdesc>
+				<procdate>19990301</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+						</cntorgp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntaddr>
+							<addrtype>Physical address</addrtype>
+							<address>301 North Wilmington Street, Suite 700</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27601-2825</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntaddr>
+							<addrtype>Mailing address</addrtype>
+							<address>20322 Mail Center Services</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27699-0322</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 733-2090</cntvoice>
+						<cntfax>(919)715-0725</cntfax>
+						<cntemail>dataq@cgia.state.nc.us</cntemail>
+						<hours>8:30AM - 5:30PM</hours>
+						<cntinst>
+Phone and electronic mail preferred
+</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\stacey\LOCALS~1\Temp\xml16E.tmp</srcused><date Sync="TRUE">20031119</date><time Sync="TRUE">15523300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\ecotools.env.duke.edu\f$\sandbox\ENV359_PS2\ToolData\Triangle.gdb</srcused><date Sync="TRUE">20071016</date><time Sync="TRUE">11011400</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>River basin name</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="streams"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">3</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="streams">
+			<enttyp>
+				<enttypl Sync="TRUE">streams</enttypl>
+				<enttypd>Locations of surface waters consisting of streams and rivers,lakes, ponds, and shorelines combined from both 1:24,000 and 1:100,000 -scale sources. Arc and polygn attributes include rating of how well a waterbody supports its designated uses as defined by its stream classification.</enttypd>
+				<enttypds>NC DENR - Division of Water Qualtiy, Water Quality Planning Section</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl>DWQ_CLDATE</attrlabl>
+				<attrdef>Date of last feature classification</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Variable by river basin</udom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>variable by river basin</rdommin>
+						<rdommax>variable by river basin</rdommax>
+						<attrunit>Feet</attrunit>
+						<attrmres>0.001</attrmres>
+					</rdom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FNODE_</attrlabl>
+				<attrdef>Polygon internal identification number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">FNODE_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TNODE_</attrlabl>
+				<attrdef>Polygon internal identification number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.0</rdommin>
+						<rdommax>variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">TNODE_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LPOLY_</attrlabl>
+				<attrdef>DLG standard code for feature</attrdef>
+				<attrdefs>US Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Standards for Digital Line Graphs</codesetn>
+						<codesets>US Geological Survey, NMD</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">LPOLY_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RPOLY_</attrlabl>
+				<attrdef>DLG standard code for feature</attrdef>
+				<attrdefs>US Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Standards for Digital Line Graphs</codesetn>
+						<codesets>US Geological Survey, NMD</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">RPOLY_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LENGTH</attrlabl>
+				<attrdef>Stream name as listed in DWQ Classification Guide</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Names of streams vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<attalias Sync="TRUE">LENGTH</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TEST_</attrlabl>
+				<attrdef>River basin</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>River basin names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">TEST_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TEST_ID</attrlabl>
+				<attrdef>Feature maintenance status</attrdef>
+				<attrdefs>NC CGIA</attrdefs>
+				<attrdomv>
+					<udom>Internal tracking number</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">TEST_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MINOR1</attrlabl>
+				<attrdef>record number</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by tile</rdommin>
+						<rdommax>Variable by tile</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">MINOR1</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MINOR2</attrlabl>
+				<attrdef>1:100,000 scale tile</attrdef>
+				<attrdefs>NC Center for Geographic Information</attrdefs>
+				<attrdomv>
+					<udom>Tile names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">MINOR2</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STREAM_NAM</attrlabl>
+				<attrdef>DWQ index number (ex: 9-53-1a) for 305B stream reaches</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Classification number used internally</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">STREAM_NAM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RIV_BASIN</attrlabl>
+				<attrdef>Sub-basin #</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Values vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">RIV_BASIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">SUBBASIN</attrlabl>
+				<attrdef>Use support rating showing if waters are meeting the uses for which they are classified</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>FS</edomv>
+						<edomvd>Water use is fully supporting its classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>PS</edomv>
+						<edomvd>Water use is partially supporting its classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NS</edomv>
+						<edomvd>Water use is not supporting its classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NR</edomv>
+						<edomvd>Water use has not been rated for classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">SUBBASIN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CGIA_FMS</attrlabl>
+				<attrdef>Determines if the rating was assigned on a monitored or evaluated basis</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>M</edomv>
+						<edomvd>Rating was on a monitored basis</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Rating was on an evaluated basis</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>ME</edomv>
+						<edomvd>Rating was on both a monitored and evaluated basis</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">CGIA_FMS</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DWQ_INDEX_</attrlabl>
+				<attrdef>Problem parameters from 305b spreadhseet</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Parameter names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">DWQ_INDEX_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DWQ_CLASS</attrlabl>
+				<attrdef>Major source of impairment, point or nonpoint</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>point source of impairment</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NP</edomv>
+						<edomvd>nonpoint source of impairment</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">CL_LENGTH</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DWQ_CLDATE</attrlabl>
+				<attrdef>Description of use support stream reach beginning and end</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Varies in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">DWQ_CLASS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CL_LENGTH</attrlabl>
+				<attrdef>Specific WQ pollutant causing impairment (sediment, nutrients,..)</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Parameter names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">DWQ_CLDATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMMENT</attrlabl>
+				<attrdef>DWQ index number (ex: 9-53-1a) for 303D stream reaches</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Classification number used internally</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">COMMENT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">60</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DWQ_CLASS</attrlabl>
+				<attrdef>DWQ stream classification (ex: WS-III)</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>WS-I</edomv>
+						<edomvd>Waters protected as water supplies which are in natural and undeveloped watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-II</edomv>
+						<edomvd>Waters protected as water supplies which are generally in predominantly undeveloped watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-III</edomv>
+						<edomvd>Waters protected as water supplies which are generally in low to moderately developed watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-IV</edomv>
+						<edomvd>Waters protected as water supplies which are generally in moderately to highly developed watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-V</edomv>
+						<edomvd>Waters protected as water supplies which are generally upstream and draining to Class WS-IV waters</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Primary recreation and any other usage specified by the "C" classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Aquatic life propagation and survival, fishing, wildlife, secondary recreation, and agriculture</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>SA</edomv>
+						<edomvd>Shellfishing for market purposes and any other usage specified by the "SB" and "SC" classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>SB</edomv>
+						<edomvd>Primary recreation and any other usage specified by the "SC" classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>SC</edomv>
+						<edomvd>Aquatic life propagation and survival, fishing, wildlife, and secondary recreation</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>Tr</edomv>
+						<edomvd>Suitable for natural trout propagation and maintenance of stocked trout</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>Sw</edomv>
+						<edomvd>Waters which have low velocities and other natural characteristics which are different from adjacent streams</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>HQW</edomv>
+						<edomvd>High Quality Waters which are waters that are rated as excellent based on biological and physical/chemical characteristics through division monitoring or special studies; native and special native trout waters (and their tributaries) designated by the Wildlife Resources Commission; primary nursery areas (PNA) designated by the Marine Fisheries Commission and other functional nursery areas designated by the Wildlife Resources Commission; critical habitat areas designated by the Wildlife Resources Commission or the Department of Agriculture; all water supply watersheds which are either classified as WS-I or WS-II or those for which a formal petition for reclassification as WS-I or WS-II has been received from the appropriate local government and accepted by the Division of Water Quality; and all Class SA waters.</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NSW</edomv>
+						<edomvd>Nutrient Sensitive Waters which require limitations on nutrient inputs</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>ORW</edomv>
+						<edomvd>Outstanding Resource Waters which are unique and special waters of exceptional state or national recreational or ecological significance which require special protection to maintain existing uses.</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<attalias Sync="TRUE">DESCRIP_CL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">170</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DESCRIP_CL</attrlabl>
+				<attrdef>Description of classification stream reach beginning and end</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Varies in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>COMMENT</attrlabl>
+				<attrdef>Supplemental descriptive information</attrdef>
+				<attrdefs>NC Center for Geographic Information and Analysis</attrdefs>
+				<attrdomv>
+					<udom>Varies in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESCRIP_CL</attrlabl>
+				<attrdef>Date of last use support update</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Variable by river basin</udom>
+				</attrdomv>
+				<attrmfrq>By river basin schedule</attrmfrq>
+				<attalias Sync="TRUE">DESCRIP_CL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">170</attwidth></attr>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>Hydrography with Use Support (1:100,000)</enttypl>
+				<enttypd>Locations of surface waters consisting of streams and rivers, lakes, ponds, and shorelines combined from both 1:24,000 and 1:100,000- scale sources. Arc attributes include rating of how well a waterbody supports its designated uses as defined by its stream classification.</enttypd>
+				<enttypds>NC DENR - Division of Water Qualtiy, Water Quality Planning Section</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FNODE#</attrlabl>
+				<attrdef>From-node identifier of linear feature</attrdef>
+				<attrdefs>Software compute</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by river basin</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>TNODE#</attrlabl>
+				<attrdef>To-node identifier of linear feature</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by river basin</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>LPOLY#</attrlabl>
+				<attrdef>Internal number of poly to left of arc</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by river basin</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>RPOLY#</attrlabl>
+				<attrdef>Internal number of poly to right of arc</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by river basin</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>LENGTH</attrlabl>
+				<attrdef>Length of arc in coverage units (meters)</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by river basin</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+						<attrunit>feet</attrunit>
+						<attrmres>0.001</attrmres>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>RB#</attrlabl>
+				<attrdef>Polygon internal identification number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>RB-ID</attrlabl>
+				<attrdef>Polygon internal identification number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>Variable by river basin</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl>MINOR1</attrlabl>
+				<attrdef>DLG standard code for feature</attrdef>
+				<attrdefs>US Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Standards for Digital Line Graphs</codesetn>
+						<codesets>US Geological Survey, NMD</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>MINOR2</attrlabl>
+				<attrdef>DLG standard code for feature</attrdef>
+				<attrdefs>US Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Standards for Digital Line Graphs</codesetn>
+						<codesets>US Geological Survey, NMD</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>STREAM_NAM</attrlabl>
+				<attrdef>Stream name as listed in DWQ Classification Guide</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Names of streams vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl>RIV-BASIN</attrlabl>
+				<attrdef>River basin</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>River basin names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl>CGIA_FMS</attrlabl>
+				<attrdef>Feature maintenance status</attrdef>
+				<attrdefs>NC Center for Geographic Information and Analysis</attrdefs>
+				<attrdomv>
+					<udom>Internal tracking number</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>RECNUM</attrlabl>
+				<attrdef>record number</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>Variable by tile</rdommin>
+						<rdommax>Variable by tile</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>QUAD_NAME</attrlabl>
+				<attrdef>1:100,000 scale tile</attrdef>
+				<attrdefs>NC Center for Geographic Information and Analysis</attrdefs>
+				<attrdomv>
+					<udom>Tile names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl>INDEX_305B</attrlabl>
+				<attrdef>DWQ index number (ex: 9-53-1a) for 305B stream reaches</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Classification number used internally</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl>SUBBASIN</attrlabl>
+				<attrdef>Sub-basin #</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Values vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>USE_RATING</attrlabl>
+				<attrdef>Use support rating showing if waters are meeting the uses for which they are classified</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>FS</edomv>
+						<edomvd>Water use is fully supporting its classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>PS</edomv>
+						<edomvd>Water use is partially supporting its classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NS</edomv>
+						<edomvd>Water use is not supporting its classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NR</edomv>
+						<edomvd>Water use has not been rated for classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>USE_BASIS</attrlabl>
+				<attrdef>Determines if the rating was assigned on a monitored or evaluated basis</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>M</edomv>
+						<edomvd>Rating was on a monitored basis</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Rating was on an evaluated basis</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>ME</edomv>
+						<edomvd>Rating was on both a monitored and evaluated basis</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>CAUSES</attrlabl>
+				<attrdef>Problem parameters from 305b spreadhseet</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Parameter names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>SOURCES</attrlabl>
+				<attrdef>Major source of impairment, point or nonpoint</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>point source of impairment</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NP</edomv>
+						<edomvd>nonpoint source of impairment</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl>DESCRIP_UR</attrlabl>
+				<attrdef>Description of use support stream reach beginning and end</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Varies in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>USE_DATE</attrlabl>
+				<attrdef>Date of last use support update</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Variable by river basin</udom>
+				</attrdomv>
+				<attrmfrq>By river basin schedule</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>SUB_SOURCES</attrlabl>
+				<attrdef>Specific WQ pollutant causing impairment (sediment, nutrients,..)</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Parameter names vary in length and number of words.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>INDEX_303D</attrlabl>
+				<attrdef>DWQ index number (ex: 9-53-1a) for 303D stream reaches</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Classification number used internally</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>USE_LENGTH</attrlabl>
+				<attrdef>Length of use support reach in miles; calculated from LENGTH for single line streams This attribute should be considerd an estimate only</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Variable by stream segment</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>DWQ_INDEX#</attrlabl>
+				<attrdef>DWQ stream classification index number (ex: 9-53-1)</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Classification number used internally</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>DWQ_CLASS</attrlabl>
+				<attrdef>DWQ stream classification (ex: WS-III)</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>WS-I</edomv>
+						<edomvd>Waters protected as water supplies which are in natural and undeveloped watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-II</edomv>
+						<edomvd>Waters protected as water supplies which are generally in predominantly undeveloped watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-III</edomv>
+						<edomvd>Waters protected as water supplies which are generally in low to moderately developed watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-IV</edomv>
+						<edomvd>Waters protected as water supplies which are generally in moderately to highly developed watersheds</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>WS-V</edomv>
+						<edomvd>Waters protected as water supplies which are generally upstream and draining to Class WS-IV waters</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Primary recreation and any other usage specified by the "C" classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Aquatic life propagation and survival, fishing, wildlife, secondary recreation, and agriculture</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>SA</edomv>
+						<edomvd>Shellfishing for market purposes and any other usage specified by the "SB" and "SC" classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>SB</edomv>
+						<edomvd>Primary recreation and any other usage specified by the "SC" classification</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>SC</edomv>
+						<edomvd>Aquatic life propagation and survival, fishing, wildlife, and secondary recreation</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>Tr</edomv>
+						<edomvd>Suitable for natural trout propagation and maintenance of stocked trout</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>Sw</edomv>
+						<edomvd>Waters which have low velocities and other natural characteristics which are different from adjacent streams</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>HQW</edomv>
+						<edomvd>High Quality Waters which are waters that are rated as excellent based on biological and physical/chemical characteristics through division monitoring or special studies; native and special native trout waters (and their tributaries) designated by the Wildlife Resources Commission; primary nursery areas (PNA) designated by the Marine Fisheries Commission and other functional nursery areas designated by the Wildlife Resources Commission; critical habitat areas designated by the Wildlife Resources Commission or the Department of Agriculture; all water supply watersheds which are either classified as WS-I or WS-II or those for which a formal petition for reclassification as WS-I or WS-II has been received from the appropriate local government and accepted by the Division of Water Quality; and all Class SA waters.</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>NSW</edomv>
+						<edomvd>Nutrient Sensitive Waters which require limitations on nutrient inputs</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+					<edom>
+						<edomv>ORW</edomv>
+						<edomvd>Outstanding Resource Waters which are unique and special waters of exceptional state or national recreational or ecological significance which require special protection to maintain existing uses.</edomvd>
+						<edomvds>NC DENR-Div of Water Quality, Water Quality Section</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>DWQ_CLDATE</attrlabl>
+				<attrdef>Date of last feature classification</attrdef>
+				<attrdefs>NC DENR-Div of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Variable by river basin</udom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>DESCRIP_CL</attrlabl>
+				<attrdef>Description of classification stream reach beginning and end</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Varies in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>CL_LENGTH</attrlabl>
+				<attrdef>Length of classification reach in miles; calculated from LENGTH for single line streams and supplemented by measurements from DWQ. This attribute should be considerd an estimate only</attrdef>
+				<attrdefs>NC DENR-Div. Of Water Quality, Water Quality Section</attrdefs>
+				<attrdomv>
+					<udom>Variable by stream segment</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>COMMENT</attrlabl>
+				<attrdef>Supplemental descriptive information</attrdef>
+				<attrdefs>NC Center for Geographic Information and Analysis</attrdefs>
+				<attrdomv>
+					<udom>Varies in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>
+An arc and polygon coverage depicting surface waters consisting of streams and rivers, lakes, ponds, reservoirs, and shorelines. The arc attribute table (AAT) arc length (linear meters), polygon internal identification number, polygon user identification number, a DWQ internal index number that relates to the identification of the stream, the stream's use support rating, the classification of the surface water, the river basin name, the name of the stream, the date the feature was last classified, the name of the USGS 1:100,000-scale river basin on which the feature is located, two DLG standard feature codes, and a CGIA feature type.
+BROAD.PAT  Polygon Attribute Table
+COLUMN  ITEM NAME   WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+1      AREA            4     12     F      3     Total area in feet
+5      PERIMETER       4     12     F      3     Total perimeter
+9      RB#             4      5     B      -     Poly internal
+13     RB-ID           4      5     B      -     Poly user id number
+17     MINOR1          8     18     F      5     DLG standard code for feature
+25     MINOR2          8     18     F      5     DLG standard code for feature
+33     STREAM_NAM    100    100     C      -     Stream name as listed in DWQ Classification Guide
+133    WATERBODY     100    100     C      -     Waterbody name as listed in DWQ Classification Guide
+233    RIV_BASIN      20     20     C      -     River basin name
+253    SUBBASIN        8     13     F      5     Identification number of subbasin
+261    CGIA_FMS        8     18     F      0     Feature maintenance status
+269    DWQ_INDEX#     25     25     C      -     DWQ stream classification index number (ex: 9-53-1)
+296    DWQ_CLASS      15     15     C      -     DWQ stream classification
+311    DWQ_CLDATE      8      8     C      -     Date of stream classification
+319    DESCRIP_CL    170    170     C      -     Description of stream classification reach
+489    COMMENT        60     60     C      -     Supplemental information
+
+BROAD.AAT  Arc Attribute Table
+COLUMN  ITEM NAME   WIDTH OUTPUT TYPE DEC  DESCRIPTION
+1       FNODE#          4     5     B    -     From-node id of linear feature
+5       TNODE#          4     5     B    -     To-node id of linear feature
+9       LPOLY#          4     5     B    -     Left-side polygon id of linear feature
+13      RPOLY#          4     5     B    -     Right-side polygon id of linear feature
+17      LENGTH          4    12     F    3     Length of linear feature in feet
+21      RB#             4     5     B    -     Internal id number
+25      RB-ID           4     5     B    -     Internal id number
+29      MINOR1          8    18     F    5     DLG standard code for feature
+37      MINOR2          8    18     F    5     DLG standard code for feature
+45      STREAM_NAM    100   100     C    -     Stream name as listed in DWQ Classification Guide
+145     RIV_BASIN      20    20     C    -     River basin name
+165     SUBBASIN        8    18     F    5     Identification number of subbasin
+173     CGIA_FMS        8    18     F    5     Feature maintenance status
+181     DWQ_INDEX#     25    25     C    -     DWQ stream classification index number (ex: 9-53-1)
+206     DWQ_CLASS      15    15     C    -     DWQ stream classification
+221     DWQ_CLDATE      8     8     C    -     Date of stream classification
+229     DESCRIP_CL    170   170     C    -     Description of stream classification reach
+399     CL_LENGTH       8    18     F    5     Length of classification stream reach in miles (calculated for single line streams only)
+407     COMMENT        60    60     C    -     Supplemental information
+</eaover>
+			<eadetcit>Refer to source agency for published stream classification documents and use support methodolgy.</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+				</cntorgp>
+				<cntpos>Production Services</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 N. Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27601-2825</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919) 715-0725</cntfax>
+				<cntemail>dataq@cgia.state.nc.us</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>Phone and electronic mail preferred For current COST INFORMATION, use a web browser: &lt;http://cgia.cgia.state.nc.us/cost.html&gt;</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Hydrography (1:100,000)</resdesc>
+		<distliab>NCCGIA is charged with the development and maintenance of the State's corporate geographic database and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information about the state. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop the corporate database may be reflected in the data supplied. The client must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this data. The use of trade names or commercial products does not constitute their endorsement by the NCCGIA or North Carolina State Government.</distliab>
+		<stdorder>
+			<nondig>FOR DIGITAL OR NON-DIGITAL DATA, Contact NC CGIA, Data Distribution to order data, Phone 919.733.2090 ... Email dataq@cgia.state.nc.us ... Web Page order form &lt;http://www.cgia.state.nc.us/cgdb/index.html&gt;</nondig>
+			<fees>For current FORMAT/MEDIA INFORMATION, use a web browser: &lt;http://cgia.cgia.state.nc.us/cost.html&gt; or phone NC CGIA Data Distribution 919.733.2090</fees>
+			<digform><digtinfo><transize Sync="TRUE">19.393</transize><dssize Sync="TRUE">19.393</dssize></digtinfo></digform></stdorder>
+		<custom>Data creation and large data analysis jobs contact Database Administration P:(919)733-2090. All data is available through standard ordering procedures on a cost recovery basis.</custom>
+		<techpreq>All formats supplied are created using ARC/INFO GIS software on Unix workstations. Other formats are available. Format compatibility is the user's responsibility. For current FORMAT/MEDIA INFORMATION, use a web browser: &lt;http://cgia.cgia.state.nc.us/cost.html&gt;</techpreq>
+		<availabl>
+			<timeinfo>
+				<rngdates>
+					<begdate>19980301</begdate>
+					<enddate>
+Present
+</enddate>
+				</rngdates>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20071016</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper></cntorgp>
+				<cntpos>Database Management</cntpos>
+				<cntaddr>
+					<addrtype>Physical address</addrtype>
+					<address>301 North Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27601-2825</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>20322 Mail Center Services</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27699-0322</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919) 715-0725</cntfax>
+				<cntemail>dataq@cgia.state.nc.us</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>Phone and electronic mail preferred</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>
+This metadata file is to accompany the data set identified and received from NCCGIA. NCCGIA does not support secondary distribution. If this data file was received from anyone besides NCCGIA, this metadata file and the data set it describes may contain discrepancies.
+
+Generated by mp version 2.4.8 on Thu Jun 15 13:57:07 2000.  Edited July 25,2003.
+</metuc>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20071016</CreaDate><CreaTime>11011400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101026</SyncDate><SyncTime>11045900</SyncTime><ModDate>20101026</ModDate><ModTime>11045900</ModTime><DataProperties><lineage><Process Name="Clip" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20071016" Time="110007">Clip major_hydro_arcs F:\sandbox\ENV359_PS2\ToolData\Triangle.gdb\TriCounties F:\sandbox\ENV359_PS2\ToolData\Triangle.gdb\streams #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20101026" Time="110501">CopyFeatures S:\ENV359_PS3_2009\Data\Triangle.gdb\streams S:\ENV359_PS3_2009\Data\streams.shp # 0 0 0</Process></lineage><itemProps><itemName Sync="TRUE">streams</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\LAPPY2\Sandbox\ENV359_SDrive\ENV359_PS3_2009\Data\streams.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_North_Carolina_FIPS_3200&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,609601.22],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-79.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,34.33333333333334],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,36.16666666666666],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,33.75],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,32119]]&lt;/WKT&gt;&lt;XOrigin&gt;-37137500&lt;/XOrigin&gt;&lt;YOrigin&gt;-28547400&lt;/YOrigin&gt;&lt;XYScale&gt;119309817.90311031&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;32119&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><MetaID>{4C17511A-66B7-488D-8461-50E514C056A6}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Server 2008 R2 Version 6.1 (Build 7600) ; ESRI ArcGIS 10.0.0.2414</envirDesc><dataLang><languageCode Sync="TRUE" value="eng" country="USA"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">streams</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="native"><westBL Sync="TRUE">127171.15625</westBL><eastBL Sync="TRUE">929658.9375</eastBL><northBL Sync="TRUE">317839.15625</northBL><southBL Sync="TRUE">11576.114258</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-84.386645</westBL><eastBL Sync="TRUE">-75.424383</eastBL><northBL Sync="TRUE">36.614926</northBL><southBL Sync="TRUE">33.740263</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\nicknet\network\class\fall-2007\environ359\jpfay\ENV359_PS2\ToolData\Triangle.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">19.393</transSize></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="32119">NAD_1983_StatePlane_North_Carolina_FIPS_3200</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="streams"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="002"></GeoObjTypCd><geoObjCnt Sync="TRUE">0</geoObjCnt></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101026</mdDateSt></metadata>

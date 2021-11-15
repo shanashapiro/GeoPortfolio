@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>NC Center for Geographic Information &amp; Analysis</origin>
+				<pubdate>19981201</pubdate>
+				<title Sync="TRUE">TriCounties</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Raleigh,North Carolina</pubplace>
+					<publish>NC Center for Geographic Information &amp; Analysis</publish>
+				</pubinfo>
+				<othercit>NCCGIA distributes this dataset</othercit>
+				<onlink>CGDB layer listing and Metadata - http://www.cgia.state.nc.us/cgdb/index.html</onlink>
+				<ftname Sync="TRUE">TriCounties</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+The NC Center for Geographic Information and Analysis
+developed the GIS data set, County Boundaries with Shoreline, as
+mapped by the US Geological Survey-Digital Line Graph Program
+to facilitate planning, siting and impact analysis in the 100
+individual counties of North Carolina. This file enables
+the user to make various county-level determinations when used
+in conjunction with other data layers.  Another coverage
+contains straight-lined boundaries of the coastal counties.
+</abstract>
+			<purpose>
+This data was created to assist governmental agencies and others in
+making resource management decisions through use of a Geographic
+Information System (GIS).
+</purpose>
+			<supplinf>system filename: cb100sl  approx. filesize = 1.5 mb
+Revisions and updates to this layer include:
+3.) filename: cb100sl The December 2003 update to this layer affected the
+shared county boundary lines between Iredell and Mecklenburg Counties 
+as well as Craven and Cartaret Counties.
+2.) filename: cb100sl1298  The December 1998 update to this layer
+consisted of projecting the data from NAD27 datum, State Plane
+projection, units of measure feet TO: NAD83 DATUM, State Plane
+PROJECTION, UNITS OF MEASURE METERS.  This was done to comply with
+the NC Geographic Information Coordinating Council's
+"Statement of Direction for North Carolina Corporate Geographic Database
+Horizontal Reference, Datum and Unit of Measure".  This reprojecting
+was done in various ways depending on the data type and content.
+Vector data was projected using the 'project' command in ESRI's Arc
+software and topology was cleaned and built based on coverage needs.
+Raster data was projected using ESRI's Grid module and various steps
+as applicable.
+1.) filename: cb100sl298  The February 1998 version was the first archived version of this data. (this file was previously named nc100.cb.sl)
+A DOT-based county boundaries coverage at approximately 1:126,720 also exists in the Corporate Database.  This DOT coverage should be used in conjunction with other data layers that were developed (i.e., clipped)
+using this coverage.  Some of these coverages are:
+General Geology (1:250,000-scale)
+General Soils (1:250,000-scale)
+1980 Census Boundaries/Population</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1990</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Data creation date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-84.421925</westbc>
+				<eastbc Sync="TRUE">-75.416567</eastbc>
+				<northbc Sync="TRUE">36.617518</northbc>
+				<southbc Sync="TRUE">33.723370</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">124020.937500</leftbc><rightbc Sync="TRUE">930348.812500</rightbc><bottombc Sync="TRUE">9865.255859</bottombc><topbc Sync="TRUE">318126.968750</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>County boundaries</themekey>
+				<themekey>North Carolina state shell</themekey>
+				<themekey>Shoreline</themekey>
+			</theme>
+			<place>
+				<placekt>
+William S. Powell, The North Carolina
+GAZETTEER, A Dictionary of Tar Heel Places,(Chapel Hill: University of
+North Carolina Press, August 1984.
+</placekt>
+				<placekey>North Carolina</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>
+Acknowledgement of products derived form this data set should cite the
+following: The source of the Boundaries - County with Shoreline (1:100,000)
+data is the North Carolina Corporate Geographic Database. Earlier versions
+of this data set may exist. The user must be sure to use the appropriate
+data set for the time period of interest.  While efforts have been made to
+ensure that these data are accurate and reliable within the state of the
+art, CGIA cannot assume liability for any damages or misrepresentation
+caused by any inaccuracies in the data or as a result of changes to the
+data caused by system transfers.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NC CGIA</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 N. Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27601-2825</postal>
+					<country>U.S.A.</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919)715-0725</cntfax>
+				<cntemail>dataq@cgia.state.nc.us</cntemail>
+				<hours>8am to 5pm</hours>
+				<cntinst>Phone and electronic mail preferred</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>NCCGIA Acting Director, Tim Johnson
+Database Administration, Zsolt Nagy
+Database Management, David Giordano
+North Carolina Center for Geographic Information and Analysis
+Department of Environment and Natural Resources
+301 N. Wilmington Street, Suite 700
+20322 Mail Service Center
+Raleigh, NC 27699-0322</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+NC CGIA digitized the county boundaries from USGS Digital Line Graphs
+on mylar basemaps.  The polygons were attributed with county name, county
+FIPS number, county abbreviation, and total acres per county.  Arcs were
+assigned an arc type and name. The digital files were plotted and
+overlayed to the originals and linework and label corrections were made.
+</attraccr>
+		</attracc>
+		<logic>
+Using ESRI's ARC/INFO GIS software, the data set was built for arc and
+polygon topology using the "build" command. Topology has not been edited since
+the last build or clean.
+</logic>
+		<complete>
+This data layer represents the jurisdictional boundaries of all counties
+in North Carolina, as mapped by the US Geological Survey-Digital Line
+Graph Program, 1:100,000-scale, with shoreline included.
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+County boundaries were digitized from 30 x 60 Series USGS mylar
+basemaps, which meet National Map Accuracy Standards.  The digital
+files were plotted and overlayed to the originals and needed
+line corrections were made to within one linewidth.
+</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>US Geological Survey</origin>
+						<pubdate>1984-1986</pubdate>
+						<title>30 x 60 Series quadrangles</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Reston, Virginia</pubplace>
+							<publish>US Geological Survey</publish>
+						</pubinfo>
+						<othercit>Published map series</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>Mylar</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1984</begdate>
+							<enddate>1986</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Publication dates of quadrangles</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Mylar maps from which county boundaries were digitized.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+County boundaries were delineated by USGS
+cartographers on mylar basemaps.
+</procdesc>
+				<procdate>1986</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NCCGIA</cntorg>
+						</cntorgp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntaddr>
+							<addrtype>Mailing and physical address</addrtype>
+							<address>301 N. Wilmington Street, Suite 700</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27601-2825</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 733-2090</cntvoice>
+						<cntfax>(919)715-0725</cntfax>
+						<cntemail>dataq@cgia.state.nc.us</cntemail>
+						<hours>8:30AM - 5:30PM</hours>
+						<cntinst>Phone and electronic mail preferred</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+The file was created using ESRI's ARC/INFO version
+5.0 GIS using a Calcomp digitizer and ARCEDIT.
+County boundaries with shoreline were digitized
+from hand delineated county boundaries on USGS 30 x 60 Series
+mylar basemaps. The digital files were attributed and checkplots
+were created for review by NC CGIA GIS analyst.   Necessary
+corrections were made and new plots were run. Post processing
+involved edgematching and mapjoining of USGS 30 x 60 Series
+maps used to create the digitized data.  This process generated
+one statewide polygon coverage showing the extent of county
+boundaries for NC.
+</procdesc>
+				<procdate>1990</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NCCGIA</cntorg>
+						</cntorgp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntaddr>
+							<addrtype>Mailing and physical address</addrtype>
+							<address>301 N. Wilmington Street, Suite 700</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27601-2825</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 733-2090</cntvoice>
+						<cntfax>(919)715-0725</cntfax>
+						<cntemail>dataq@cgia.state.nc.us</cntemail>
+						<hours>8:30AM - 5:30PM</hours>
+						<cntinst>Phone and electronic mail preferred</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\stacey\LOCALS~1\Temp\xml21A.tmp</srcused><date Sync="TRUE">20040116</date><time Sync="TRUE">09102300</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>_Method: County name</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="TriCounties"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">4</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="TriCounties">
+			<attr><attrlabl Sync="TRUE">SQ_MILE</attrlabl><attalias Sync="TRUE">SQ_MILE</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><enttyp>
+				<enttypl Sync="TRUE">TriCounties</enttypl>
+				<enttypd>Boundary extents of counties</enttypd>
+				<enttypds>NC CGIA</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>26.024</rdommin>
+						<rdommax>2201123.250</rdommax>
+						<attrunit>meters</attrunit>
+						<attrmres>0.001</attrmres>
+					</rdom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef>Polygon internal identification number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>460</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef>Polygon internal identification number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>459</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CB100SL_</attrlabl>
+				<attrdef>Federal Information Processing code for county</attrdef>
+				<attrdefs>U.S. Department of the Interior, U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standard Codes</codesetn>
+						<codesets>U.S. Dept. of the Interior, U.S. Geological Survey</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">CB100SL_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CB100SL_ID</attrlabl>
+				<attrdef>County name</attrdef>
+				<attrdefs>NC CGIA</attrdefs>
+				<attrdomv>
+					<udom>County names vary in length and number of words</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">CB100SL_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FIPS</attrlabl>
+				<attrdef>Federal Information Processing code for county</attrdef>
+				<attrdefs>U.S. Department of the Interior, U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standard Codes</codesetn>
+						<codesets>U.S. Dept. of the Interior, U.S. Geological Survey</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">FIPS</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CO_NAME</attrlabl>
+				<attrdef>County name abbreviation</attrdef>
+				<attrdefs>NC CGIA</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>List of County Abbreviations</codesetn>
+						<codesets>NC CGIA</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">CO_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CO_</attrlabl>
+				<attrdef>Shoreline type</attrdef>
+				<attrdefs>NC CGIA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-4</edomv>
+						<edomvd>Ocean area</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+					<edom>
+						<edomv>-3</edomv>
+						<edomvd>Sound area</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Land area</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attalias Sync="TRUE">CO_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">CO_ABBR</attrlabl><attalias Sync="TRUE">CO_ABBR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SL_ID</attrlabl><attalias Sync="TRUE">SL_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">POP1999</attrlabl><attalias Sync="TRUE">POP1999</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">POP1990</attrlabl><attalias Sync="TRUE">POP1990</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CHNG90_99</attrlabl><attalias Sync="TRUE">CHNG90_99</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ZCHNG</attrlabl><attalias Sync="TRUE">ZCHNG</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">POP2000</attrlabl><attalias Sync="TRUE">POP2000</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">POP2010</attrlabl><attalias Sync="TRUE">POP2010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CHNG00_10</attrlabl><attalias Sync="TRUE">CHNG00_10</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ZCH_PRO</attrlabl><attalias Sync="TRUE">ZCH_PRO</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ACRES</attrlabl><attalias Sync="TRUE">ACRES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>County boundaries</enttypl>
+				<enttypd>Boundary extents of counties</enttypd>
+				<enttypds>NC CGIA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FNODE#</attrlabl>
+				<attrdef>From-node identifier of linear feature</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>944</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>TNODE#</attrlabl>
+				<attrdef>To-node identifier of linear feature</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>944</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>LPOLY#</attrlabl>
+				<attrdef>Internal number of poly to left of arc</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>460</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl>RPOLY#</attrlabl>
+				<attrdef>Internal number of poly to right of arc</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>459</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl>LENGTH</attrlabl>
+				<attrdef>Length of arc in coverage units</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.630</rdommin>
+						<rdommax>579351.000</rdommax>
+						<attrunit>meters</attrunit>
+						<attrmres>.001</attrmres>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>CB100SL#</attrlabl>
+				<attrdef>Internal feature number</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>1272</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>CB100SL-ID</attrlabl>
+				<attrdef>Internal feature number</attrdef>
+				<attrdefs>User defined</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>-901</rdommin>
+						<rdommax>346</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+				<attrdef>Arc type</attrdef>
+				<attrdefs>NC CGIA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CNTY</edomv>
+						<edomvd>County boundary</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+					<edom>
+						<edomv>NONE</edomv>
+						<edomvd>No particular type</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+					<edom>
+						<edomv>OCEAN</edomv>
+						<edomvd>Ocean Boundary</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+					<edom>
+						<edomv>SHORE</edomv>
+						<edomvd>Shoreline boundary</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+					<edom>
+						<edomv>STATE</edomv>
+						<edomvd>State boundary</edomvd>
+						<edomvds>NC CGIA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr/><attr/><attr/><attr/></detailed>
+		<overview>
+			<eaover>
+An arc and polygon coverage depicting the North Carolina state and
+county boundaries without shoreline.  The polygon attribute
+table (PAT) has attribute data including  total area in coverage
+units(square meters), total perimeter (linear meters), polygon internal
+identification number, polygon user identification number, a FIPS
+numeric code indicating county identification, county name, county
+abbreviation, and total number of acres per county.  The arc attribute
+table (AAT) includes unique numeric ids as well as arc type and arc name.
+
+&gt;CB100.PAT  Polygon Attribute Table
+&gt;COL  ITEM NAME         WDTH OPUT TYP N.DEC  ALTERNATE NAME
+&gt;1   AREA                4   19  F    3  Area in coverage units
+&gt;5   PERIMETER           4   12  F    3  Perimeter in coverage units
+&gt;9   CB100SL#            4    5  B    -  Coverage Id
+&gt;13  CB100SL-ID          4    5  B    -  User assigned Id
+&gt;17  FIPS                4    7  B    -  County FIPS code
+&gt;21  CO-NAME            15   15  C    -  County name
+&gt;36  CO#                 4    7  B    -  County FIPS code
+&gt;40  CO-ABBR             4    4  C    -  4 letter county abbreviation
+&gt;44  SL-ID               4    5  B    -
+
+&gt;NC100.CB.AAT  Arc Attribute Table
+&gt;COLUMN ITEM NAME WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+&gt;1   FNODE#     4     5     B     -   From-node id of linear feature
+&gt;5   TNODE#     4     5     B     -   To-node id of linear feature
+&gt;9   LPOLY#     4     5     B     -   Left-side polygon id of linear feature
+&gt;13  RPOLY#     4     5     B     -   Right-side polygon id of linear feature
+&gt;17  LENGTH     4    12     F     3   Length of linear feature in meters
+&gt;21  CB100SL#   4     5     B     -   Internal id number
+&gt;25  CB100SL-ID 4     5     B     -   Internal id number
+&gt;29  TYPE       4     5     B     -   Arc type
+</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+				</cntorgp>
+				<cntpos>Production Services</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 N. Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27601-2825</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919) 715-0725</cntfax>
+				<cntemail>dataq@cgia.state.nc.us</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>
+Phone and electronic mail preferred
+For current COST INFORMATION, use a web browser:
+http://www.cgia.state.nc.us/cost.html
+</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Boundaries - County with Shoreline (1:100,000)</resdesc>
+		<distliab>
+NCCGIA is charged with the development and maintenance
+of the State's corporate geographic  database and, in
+cooperation with other mapping  organizations, is
+committed to offering its users accurate, useful, and
+current information about the state. Although every
+effort has been made to ensure the accuracy of information,
+errors and conditions originating from physical sources
+used to develop the corporate database may be reflected
+in the data supplied.  The client must be aware of data
+conditions and bear responsibility for the appropriate
+use of the information with respect to possible errors,
+original map scale, collection methodology, currency
+of data, and other conditions specific to certain data.
+NCCGIA does not support secondary distribution of this
+data.  The use of trade names or commercial products does
+not constitute their endorsement by the NCCGIA or North
+Carolina State Government.
+</distliab>
+		<stdorder>
+			<nondig>
+FOR DIGITAL OR NON-DIGITAL DATA, Contact NC CGIA,
+Data Distribution to order data, Phone 919.733.2090 ...
+Email dataq@cgia.state.nc.us ... Web Page order form
+http://www.cgia.state.nc.us/cgdb/index.html
+</nondig>
+			<fees>
+For current FORMAT/MEDIA INFORMATION, use a web browser:
+http://www.cgia.state.nc.us/cost.html or phone NC CGIA
+Data Distribution 919.733.2090
+</fees>
+			<digform><digtinfo><transize Sync="TRUE">3.207</transize><dssize Sync="TRUE">3.207</dssize></digtinfo></digform></stdorder>
+		<custom>
+is available through standard ordering procedures on a
+cost recovery basis.
+</custom>
+		<techpreq>
+All formats supplied are created using ARC/INFO GIS software
+on Unix workstations. Other formats are available.
+Format compatibility is the user's responsibility.
+For current FORMAT/MEDIA INFORMATION, use a web browser:
+http://www.cgia.state.nc.us/cost.html
+</techpreq>
+		<availabl>
+			<timeinfo>
+				<rngdates>
+					<begdate>1990</begdate>
+					<enddate>Present</enddate>
+				</rngdates>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20071016</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper></cntorgp>
+				<cntpos>Database Management</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 N. Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27601-2825</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919) 715-0725</cntfax>
+				<cntemail>dataq@cgia.state.nc.us</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>Phone and electronic mail preferred</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>
+This metadata file is to accompany the data set identified
+and received from NCCGIA.  NCCGIA does not support secondary
+distribution. If this data file was received from anyone
+besides NCCGIA, this metadata file and the data set it
+describes may contain discrepancies.
+</metuc>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><MetaID>{40A4DD34-ECCF-43AF-86A7-FA8A12822F1F}</MetaID><CreaDate>20040116</CreaDate><CreaTime>09102300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101026</SyncDate><SyncTime>11042300</SyncTime><ModDate>20101026</ModDate><ModTime>11042300</ModTime><DataProperties><lineage><Process Name="Select" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Select" Date="20071016" Time="093808">Select F:\BasinPro8\boundary\cb100sl.shp F:\sandbox\ENV359_PS2\ToolData\Triangle.gdb\TriCounties ""CO_NAME" in ( 'CHATHAM', 'DURHAM', 'ORANGE', 'WAKE')"</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20101026" Time="110424">CopyFeatures S:\ENV359_PS3_2009\Data\Triangle.gdb\TriCounties S:\ENV359_PS3_2009\Data\TriCounties.shp # 0 0 0</Process></lineage><itemProps><itemName Sync="TRUE">TriCounties</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\LAPPY2\Sandbox\ENV359_SDrive\ENV359_PS3_2009\Data\TriCounties.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_North_Carolina_FIPS_3200&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,609601.22],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-79.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,34.33333333333334],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,36.16666666666666],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,33.75],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,32119]]&lt;/WKT&gt;&lt;XOrigin&gt;-37137500&lt;/XOrigin&gt;&lt;YOrigin&gt;-28547400&lt;/YOrigin&gt;&lt;XYScale&gt;119309817.90311031&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;32119&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Server 2008 R2 Version 6.1 (Build 7600) ; ESRI ArcGIS 10.0.0.2414</envirDesc><dataLang><languageCode Sync="TRUE" value="eng" country="USA"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">TriCounties</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-84.421925</westBL><eastBL Sync="TRUE">-75.416567</eastBL><northBL Sync="TRUE">36.617518</northBL><southBL Sync="TRUE">33.72337</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">124020.9375</westBL><eastBL Sync="TRUE">930348.8125</eastBL><northBL Sync="TRUE">318126.96875</northBL><southBL Sync="TRUE">9865.255859</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\ECOTOOLS\F$\sandbox\ENV359_PS2\ToolData\Triangle.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">3.207</transSize></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="32119">NAD_1983_StatePlane_North_Carolina_FIPS_3200</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="TriCounties"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="002"></GeoObjTypCd><geoObjCnt Sync="TRUE">0</geoObjCnt></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101026</mdDateSt></metadata>
